@@ -21,6 +21,12 @@ body {
 	margin: 0;
 }
 
+.main-nav li{
+    background: #cce5ff;
+    margin: 5px;
+}
+
+
 
 	.name a,
 	.main-nav a {
