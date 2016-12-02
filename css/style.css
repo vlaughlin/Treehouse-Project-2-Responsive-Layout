@@ -1,0 +1,83 @@
+/* Base Element Styles */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+	background-color: #fafafa;
+}
+
+
+/*Base Layout Styles*/
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.25em;
+	margin: 0;
+}
+
+.main-nav {
+	margin-top: 5px;
+	 background: #fff;
+
+}
+
+	.name a,
+	.main-nav a {
+		display: block;
+		text-align: center;
+		padding: 10px 15px;
+	}
+
+	.main-nav a {
+		font-size: .95em;
+		color: #000;
+		text-transform: uppercase;
+
+	}
+
+	.main-nav a:hover {
+		color: #000;
+	}
+
+
+	/* ---- Layout Containers ---- */
+
+
+.main-header {
+  padding-top: .5em;
+  padding-bottom:.5em;
+
+}
+
+
+
+.banner,
+.main-footer {
+  text-align: center;
+
+}
+
+.banner {
+	color: #fff;
+	background: #3acec2;
+  padding: 3.2em 0;
+  margin-bottom: 60px;
+}
+
+.col {
+  padding-right: 1em;
+  padding-left: 1em;
+
+}
+
+.main-footer {
+	background: #d9e4ea;
+	padding: 2em 0;
+	margin-top: 30px;
+}
