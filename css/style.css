@@ -56,13 +56,14 @@ body {
 	/* ---- Layout Containers ---- */
 
 
+}
 
+.name a {
+		font-size: 30px;
+		text-align: center;
+}
 
-	h2 {
-	    text-align: center;
-	}
-
-	h3 {
+	h2, h3 {
 	    text-align: center;
 	}
 
@@ -73,10 +74,6 @@ body {
 
 	}
 
-.name a {
-	    font-size: 30px;
-			text-align: center;
-}
 
 .main-header {
   padding-top: .5em;
