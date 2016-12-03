@@ -128,3 +128,16 @@ body {
 		    max-width: 100%;
 		    height: auto;
 		}
+
+		/*Footer*/
+
+.studentname-footer {
+text-align: left;
+
+}
+
+.back-to-top {
+	text-align: right;
+	text-decoration: none;
+	list-style: none;
+}
