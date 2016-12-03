@@ -12,6 +12,8 @@ body {
 }
 
 
+
+
 /*Base Layout Styles*/
 
 /* ---- Navigation ---- */
@@ -85,6 +87,14 @@ body {
 	background: #d9e4ea;
 	padding: 2em 0;
 	margin-top: 30px;
+}
+
+.portofolio {
+	background: #fff;
+	margin: 5px;
+	
+
+
 }
 
 /*Images*/
