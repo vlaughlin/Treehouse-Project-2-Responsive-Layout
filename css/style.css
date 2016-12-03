@@ -142,3 +142,23 @@ text-align: left;
 	text-decoration: none;
 	list-style: none;
 }
+
+a:link {
+    text-decoration: none;
+		}
+
+		/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+
+/* selected link */
+a:active {
+    color: black;
+}
