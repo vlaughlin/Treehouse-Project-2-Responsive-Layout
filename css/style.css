@@ -56,10 +56,7 @@ body {
 	/* ---- Layout Containers ---- */
 
 
-	h1 {
-	    text-align: center;
 
-	}
 
 	h2 {
 	    text-align: center;
@@ -76,6 +73,10 @@ body {
 
 	}
 
+.name {
+	    font-size: 30px;
+			text-align: center;
+}
 
 .main-header {
   padding-top: .5em;
