@@ -139,3 +139,28 @@ color: black;
 /*Media Queries*/
 
 @media (min-width: 768px) {
+
+	.main-nav {
+		text-align:center;
+
+	}
+
+	.main-nav li {
+		display: inline-block;
+		margin-left: 15px;
+		background: none;
+	}
+
+	.student-picture {
+   float:right;
+	 width: 400px;
+	 margin-right: 30px;
+
+	}
+
+	.introduction {
+		width:400px;
+		float:left;
+		font-size:20px;
+
+	}
