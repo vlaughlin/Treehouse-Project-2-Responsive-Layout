@@ -164,3 +164,12 @@ color: black;
 		font-size:20px;
 
 	}
+
+	.portofolio {
+	position: relative;
+  bottom: -260px;
+  left: 20px;
+  background-color: red;
+  width: 780px;
+	height:700px;
+}
