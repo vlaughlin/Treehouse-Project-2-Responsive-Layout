@@ -137,6 +137,8 @@ a:active {
 color: black;
 }
 
+
+
 /*Media Queries*/
 
 @media (min-width: 768px) {
@@ -146,30 +148,33 @@ body {
   padding-top:5px;
     
 }
-     .main-nav a {
-	text-align: center;
+     .main-nav  {
+	  text-align:center;
         
     }
-    .main-nav li {
+.main-nav li {
 	display: inline-block;
-	margin-left: 15px;
+	margin-left: 5px;
 	background: none;
-
 }
-
     
-    /*Clearfix*/
-
-.group::after {
-    content:"";
-    display:table;
-    clear: both;
-
+    .student-picture {
+     float: right;
+     display: block;
+    max-width:35%;
+    margin-left: auto;
+    margin-right: auto
 }
-
-
- 
     
-
+    .introduction {
+     float: left;
+     
+   
+}
     
-
+/*Clearfix*/
+   
+ .clearfix {
+  overflow: auto;
+  zoom: 1;
+}
