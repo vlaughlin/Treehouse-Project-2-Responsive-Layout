@@ -1,14 +1,14 @@
-/* Base Element Styles */
+	/* Base Element Styles */
 
 * {
-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-font-family: 'Alice', serif;
-line-height: 1.5;
-color: #3a3a3a;
-background-color: #fafafa;
+	font-family: 'Alice', serif;
+	line-height: 1.5;
+	color: #3a3a3a;
+	background-color: #fafafa;
 }
 
 
@@ -18,163 +18,147 @@ background-color: #fafafa;
 /* ---- Navigation ---- */
 
 .name a {
-font-size: 1.25em;
-margin: 0;
-font-size: 30px;
-text-align: center;
-
-
+	font-size: 1.25em;
+	margin: 0;
+	font-size: 30px;
+	text-align: center;
 }
 
 .main-nav li {
-background: #fff;
-margin: 5px;
-list-style: none;
-max-width: 90%;
+	background: #fff;
+	margin: 5px;
+	list-style: none;
+	max-width: 90%;
 }
 
 .name a,
 .main-nav a {
-display:block;
-text-align: center;
-padding: 10px 1px;
-text-decoration: none;
+	display: block;
+	text-align: center;
+	padding: 10px 1px;
+	text-decoration: none;
 }
 
 .main-nav a {
-color: #000;
-text-transform: uppercase;
-
+	color: #000;
+	text-transform: uppercase;
 }
 
 .main-nav a:hover {
-color: #000;
+	color: #000;
 }
 
 
 /* ---- Layout Containers ---- */
 
-
 h2,
 h3 {
-text-align: center;
+	text-align: center;
 }
 
 p {
-text-align: center;
-padding:2%
+	text-align: center;
+	padding: 2%
 }
 
 .portfolio {
-background: #fff;
-margin: 10px;
-padding: 10%
-
+	background: #fff;
+	margin: 10px;
+	padding: 10%
 }
 
 
 /*Images*/
 
 .student-picture {
-display: block;
-max-width:60%;
-margin-left: auto;
-margin-right: auto
+	display: block;
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: auto
 }
 
 img {
-max-width: 100%;
-height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 
 /*Footer*/
 
 .line-separator {
-height: 1px;
-border-bottom: 1px solid #c4c2c2;
+	height: 1px;
+	border-bottom: 1px solid #c4c2c2;
 }
 
 .studentname-footer {
-display:inline-block;
-float: left;
-
-
+	display: inline-block;
+	float: left;
 }
 
 .back-to-top {
-display:inline-block;
-float: right;
-list-style: none;
+	display: inline-block;
+	float: right;
+	list-style: none;
 }
 
 
 /*link*/
 
 a:link {
-text-decoration: none;
-font-size: 18px;
+	text-decoration: none;
+	font-size: 18px;
 }
 
 
 /* unvisited link */
 
 a:link {
-color: black;
+	color: black;
 }
 
 
 /* visited link */
 
 a:visited {
-color: black;
+	color: black;
 }
 
 
 /* selected link */
 
 a:active {
-color: black;
+	color: black;
 }
-
 
 
 /*Media Queries*/
 
 @media (min-width: 768px) {
- 
-    
-body {
-  padding-top:5px;
-    
-}
-     .main-nav  {
-	  text-align:center;
-        
-    }
-.main-nav li {
-	display: inline-block;
-	margin-left: 5px;
-	background: none;
-}
-    
-    .student-picture {
-     float: right;
-     display: block;
-    max-width:35%;
-    margin-left: auto;
-    margin-right: auto
-}
-    
-    .introduction {
-     float: left;
-     
-   
-}
-    
-/*Clearfix*/
-   
- .clearfix {
-  overflow: auto;
-  zoom: 1;
-}
+	body {
+		padding-top: 5px;
+	}
+	.main-nav {
+		text-align: center;
+	}
+	.main-nav li {
+		display: inline-block;
+		margin-right: %;
+		margin-left: 2%;
+		background: none;
+	}
+	.student-picture {
+		float: right;
+		display: inline-block;
+		max-width: 35%;
+		margin-left: 10%;
+		margin-right: 6%;
+	}
+	.introduction {
+		float: right;
+		width: 47.5%
+	}
+	/*Clearfix*/
+	.clearfix {
+		overflow: auto;
+		zoom: 1;
+	}
