@@ -103,6 +103,12 @@
 		float: right;
 		list-style: none;
 	}
+
+
+
+.footer-nav {
+    display:none;
+}
 	/*link*/
 	a:link {
 		text-decoration: none;
@@ -120,6 +126,8 @@
 	a:active {
 		color: black;
 	}
+
+      
 	/*Media Queries*/
 	@media (min-width: 768px) {
 		body {
@@ -132,7 +140,7 @@
 		
 		.main-nav li {
 			display: inline-block;
-			margin-right: %;
+			margin-right: 1%;
 			margin-left: 2%;
 			background: none;
 		}
@@ -159,6 +167,8 @@
 		.back-to-top {
 			display: none;
 		}
+        
+        
 		
 		ul.products li {
 			width: 49%;
@@ -172,3 +182,17 @@
 			margin-left: 1%;
 			margin-right: auto;
 		}
+        
+        ul.footer-nav {
+         
+         display:inline-block;
+         list-style-type: none;
+         float:right;
+      
+		}
+        
+            li {
+        display: inline;
+        padding-right: 20px;
+
+}
