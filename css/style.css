@@ -1,4 +1,4 @@
-		/* Base Element Styles */
+				/* Base Element Styles */
 		
 		* {
 			box-sizing: border-box;
@@ -63,178 +63,155 @@
 		.portfolio-title {
 			text-align: center;
 		}
-	}
-	p.contact {
-		display: inline-block;
-		text-align: center;
-	}
-	p.phone {
-		text-align: center;
-	}
-	p.e-mail {
-		text-align: center;
-	}
-	/*Images*/
-	.student-picture {
-		display: block;
-		max-width: 60%;
-		margin-left: auto;
-		margin-right: auto
-	}
-	img {
-		max-width: 100%;
-		display: block;
-		margin-left: -20px
-	}
-	li {
-		list-style: none;
-	}
-	/*Footer*/
-	.line-separator {
-		height: 1px;
-		border-bottom: 1px solid #c4c2c2;
-	}
-	.studentname-footer {
-		display: inline-block;
-		float: left;
-	}
-	.back-to-top {
-		display: inline-block;
-		float: right;
-		list-style: none;
-	}
-
-
-
-.footer-nav {
-    display:none;
-}
-	/*link*/
-	a:link {
-		text-decoration: none;
-		font-size: 18px;
-	}
-	/* unvisited link */
-	a:link {
-		color: black;
-	}
-	/* visited link */
-	a:visited {
-		color: black;
-	}
-	/* selected link */
-	a:active {
-		color: black;
-	}
-
-      
-	/*Media Queries*/
-	@media (min-width: 768px) {
-		body {
-			padding-top: 5px;
-		}
 		
-		.main-nav {
+		p.contact {
+			display: inline-block;
 			text-align: center;
 		}
 		
-		.main-nav li {
-			display: inline-block;
-			margin-right: 1%;
-			margin-left: 2%;
-			background: none;
+		p.phone {
+			text-align: center;
 		}
+		
+		p.e-mail {
+			text-align: center;
+		}
+		/*Images*/
 		
 		.student-picture {
-			float: right;
+			display: block;
+			max-width: 60%;
+			margin-left: auto;
+			margin-right: auto
+		}
+		
+		img {
+			max-width: 100%;
+			display: block;
+			margin-left: -20px
+		}
+		
+		li {
+			list-style: none;
+		}
+		/*Footer*/
+		
+		.line-separator {
+			height: 1px;
+			border-bottom: 1px solid #c4c2c2;
+		}
+		
+		.studentname-footer {
 			display: inline-block;
-			max-width: 35%;
-			margin-left: 10%;
-			margin-right: 6%;
+			float: left;
 		}
 		
-		.introduction {
-			float: right;
-			width: 47.5%
-		}
-		
-        
-        ul.products li {
-			width: 49%;
+		.back-to-top {
 			display: inline-block;
-			vertical-align: top;
-			*display: inline;
-			*zoom: 1;
+			float: right;
+			list-style: none;
 		}
 		
-		ul.products {
-			margin-left: 1%;
-			margin-right: auto;
-		}
-        
-        ul.footer-nav {
-         
-         display:inline-block;
-         list-style-type: none;
-         float:right;
-      
-		}
-        
-            li {
-        display: inline;
-        padding-right: 20px;
-
-}
-        
-        	.back-to-top {
+		.footer-nav {
 			display: none;
 		}
-        
-        /*Clearfix*/
+		/*link*/
 		
-	     .clearfix::after {
-          content: " ";
-          display: table;
-          clear: both;
-}
-		
-	
-        
-        
-        @media (min-width: 1024px) {
-            
-            .name {
-             float:left;
-             margin: 0 1%;
-             padding: 0 2px;
-            }
-            
-             
-            ul.products li {
-			width: 33%;
-			display: inline-block;
-			vertical-align: top;
-			*display: inline;
-			*zoom: 1;
+		a:link {
+			text-decoration: none;
+			font-size: 18px;
 		}
+		/* unvisited link */
 		
-		ul.products {
-			margin-left: 1%;
-			margin-right: auto;
+		a:link {
+			color: black;
 		}
-        
-            
-    
+		/* visited link */
 		
-                
-         
-       
-            
-          
-      
+		a:visited {
+			color: black;
+		}
+		/* selected link */
 		
-        
-         
-     
-                
-        
+		a:active {
+			color: black;
+		}
+		/*Media Queries*/
+		
+		@media (min-width: 768px) {
+			body {
+				padding-top: 5px;
+			}
+			.main-nav {
+				text-align: center;
+			}
+			.main-nav li {
+				display: inline-block;
+				margin-right: 1%;
+				margin-left: 2%;
+				background: none;
+			}
+			.student-picture {
+				float: right;
+				display: inline-block;
+				max-width: 35%;
+				margin-left: 10%;
+				margin-right: 6%;
+			}
+			.introduction {
+				float: right;
+				width: 47.5%
+			}
+			ul.products li {
+				width: 49%;
+				display: inline-block;
+				vertical-align: top;
+				*display: inline;
+				*zoom: 1;
+			}
+			ul.products {
+				margin-left: 1%;
+				margin-right: auto;
+			}
+			ul.footer-nav {
+				display: inline-block;
+				list-style-type: none;
+				float: right;
+			}
+			li {
+				display: inline;
+				padding-right: 20px;
+			}
+			.back-to-top {
+				display: none;
+			}
+			/*Clearfix*/
+			.clearfix::after {
+				content: " ";
+				display: table;
+				clear: both;
+			}
+			@media (min-width: 1024px) {
+				.name {
+					float: left;
+					margin: 0 1%;
+					padding: 0 2px;
+				}
+				.main-nav a {
+					display: inline-block;
+					float: right;
+				}
+				ul.products li {
+					width: 33%;
+					display: inline-block;
+					vertical-align: top;
+					*display: inline;
+					*zoom: 1;
+				}
+				ul.products {
+					margin-left: 1%;
+					margin-right: auto;
+				}
+				p.contact {
+					text-align: center;
+				}
