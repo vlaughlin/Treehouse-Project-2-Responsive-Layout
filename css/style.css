@@ -109,7 +109,7 @@ a:link {
 }
 /* unvisited link */
 a:link {
-	color: skyblue;
+	color: black;
 }
 /* visited link */
 a:visited {
