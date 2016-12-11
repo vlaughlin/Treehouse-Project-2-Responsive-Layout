@@ -5,8 +5,8 @@
 body {
 	font-family: 'Alice', serif;
 	line-height: 1.5;
-	color: #3a3a3a;
-	background-color: #fafafa;
+	color: #000;
+	background-color: #ceede1;
 }
 /*Base Layout Styles*/
 /* ---- Navigation ---- */
@@ -41,7 +41,9 @@ h2,h3 {
 }
 p.introduction {
 	text-align: justify;
-	padding: 2%
+	padding: 2%;
+    color:dimgrey;
+    
 }
 .portfolio {
 	background: #fff;
@@ -101,20 +103,21 @@ li {
 }
 /*link*/
 a:link {
+   
 	text-decoration: none;
 	font-size: 18px;
 }
 /* unvisited link */
 a:link {
-	color: black;
+	color: skyblue;
 }
 /* visited link */
 a:visited {
-	color: black;
+	color: coral;
 }
 /* selected link */
 a:active {
-	color: black;
+	color: cadetblue;
 }
 /*Media Queries*/
 @media (min-width: 768px) {
