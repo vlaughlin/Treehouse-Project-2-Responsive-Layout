@@ -40,7 +40,7 @@ h2,h3 {
 	text-align: center;
 }
 p.introduction {
-	text-align: center;
+	text-align: justify;
 	padding: 2%
 }
 .portfolio {
@@ -50,9 +50,16 @@ p.introduction {
 .portfolio-title {
 	text-align: center;
 }
+
+.p {
+    
+    text-align: justify;
+    
+    
+}
 p.contact {
-	display: inline-block;
-	text-align: center;
+	text-align: justify;
+    padding:10%;
 }
 p.phone {
 	text-align: center;
@@ -122,6 +129,8 @@ a:active {
 		margin-right: 1%;
 		margin-left: 2%;
 		background: none;
+        
+        
 	}
 	.student-picture {
 		float: right;
@@ -130,9 +139,12 @@ a:active {
 		margin-left: 10%;
 		margin-right: 6%;
 	}
-	.introduction {
-		float: right;
+	p.introduction {
+		float: left;
 		width: 47.5%
+       
+            
+        
 }
 	ul.products li {
 		width: 49%;
@@ -157,12 +169,8 @@ a:active {
 	.back-to-top {
 		display: none;
 	}
-	/*Clearfix*/
-	.clearfix::after {
-		content: " ";
-		display: table;
-		clear: both;
-	}
+
+	
 	@media (min-width: 1024px) {
 		.name {
 			float: left;
@@ -179,10 +187,16 @@ a:active {
 		}
 		.student-picture {
 			float: right;
+            padding: 2em;
 		}
-		.introduction {
+		p.introduction {
 			float: left;
-		}
+            font-size:17px;
+            text-align:justify;
+           
+            
+        }
+		
 		ul.products li {
 			width: 33%;
 			display: inline-block;
@@ -194,7 +208,9 @@ a:active {
 			margin-left: 1%;
 			margin-right: auto;
 		}
-		p.contact {
-			text-align: center;
+		p {
+			text-align: justify;
 		}
-		
+        
+        
+     
