@@ -153,8 +153,7 @@ a:active {
 		width: 49%;
 		display: inline-block;
 		vertical-align: top;
-		*display: inline;
-		*zoom: 1;
+		
 	}
 	ul.products {
 		margin-left: 1%;
@@ -204,8 +203,7 @@ a:active {
 			width: 33%;
 			display: inline-block;
 			vertical-align: top;
-			*display: inline;
-			*zoom: 1;
+			
 		}
 		ul.products {
 			margin-left: 1%;
