@@ -172,7 +172,7 @@ a:active {
 		display: none;
 	}
 
-	
+}
 	@media (min-width: 1024px) {
 		.name {
 			float: left;
@@ -214,4 +214,4 @@ a:active {
 		}
         
         
-     
+    }
